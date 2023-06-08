@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+let f = 2;
+console.log(f);
+
+f = 999;
+console.log (f);
+
+/* 예약어 
+let this = "hello";
+let if = 123;
+let break = true;
+*/
+//함수 선언
+function hello() {
+  console.log(1234);
+}
+//함수 호출
+hello(); //1234
+
+function returnf() {
+  return 123;
+}
+let c = returnf();
+console.log(c);
+
+/////////////////////////
+//함수 선언! 
+function sum(a,b) {  //a 과 b 는 매개변수
+  return a + b;
+}
+
+let a = sum (1,2); // 1과 2는 인수
+let b = sum (7,12);
+let d = sum (2,4);
+
+console.log (a,b,d); // 3, 19, 6
+
+//////////////////////////
+//함수 선언!
+function hello() {
+  console.log("hello");
+}
+
+//함수 표현!
+let world = function () {
+  console.log("world");
+}
+
+//함수 호출!
+hello();
+world();
+
+//조건문
+
+let isshow = true;
+let checked = false;
+
+if (isshow) {
+  console.log("show!");
+}
+
+if (checked) {
+  console.log("checked!");
+}
+
+let ishow = false;
+
+if ( ishow){
+console.log("show");
+}else {
+console.log("hide");
+}
+
+
+
+
+
+
+</script>
+
+
+  
+</body>
+</html>
